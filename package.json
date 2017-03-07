@@ -1,6 +1,6 @@
 {
   "name": "landscaper-api",
-  "description": "Maintenance help for your apps - the API.",
+  "description": "Maintenance help for your apps - now in API form.",
   "version": "0.0.0",
   "homepage": "",
   "main": "src/",
