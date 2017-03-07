@@ -1,6 +1,8 @@
 # landscaper-api
 
-> Maintenance help for your apps - the API.
+> Maintenance help for your apps - now in API form.
+
+[![Build Status](https://travis-ci.org/phillipskevin/landscaper-api.svg?branch=master)](https://travis-ci.org/phillipskevin/landscaper-api)
 
 ## About
 
