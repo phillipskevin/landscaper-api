@@ -19,7 +19,7 @@
     "lint": "eslint src/ test/",
     "mocha": "mocha test/ --recursive",
     "start": "node src/",
-    "test": "npm run jshint && npm run mocha"
+    "test": "npm run lint && npm run mocha"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
