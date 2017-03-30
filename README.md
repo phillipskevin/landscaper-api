@@ -2,8 +2,6 @@
 
 > Maintenance help for your apps - now in API form.
 
-[![Build Status](https://travis-ci.org/phillipskevin/landscaper-api.svg?branch=master)](https://travis-ci.org/phillipskevin/landscaper-api)
-
 ## About
 
 This project uses [Feathers](http://feathersjs.com). An open source web framework for building modern real-time applications.

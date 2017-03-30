@@ -1,11 +1,8 @@
 'use strict';
-const authentication = require('./authentication');
-const user = require('./user');
+
+const users = require('./users/users.service.js');
 
 module.exports = function() {
-  const app = this;
-  
-  
-  app.configure(authentication);
-  app.configure(user);
+  const app = this; // eslint-disable-line no-unused-vars
+  app.configure(users);
 };

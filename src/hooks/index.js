@@ -1,13 +1,36 @@
 'use strict';
 
-// Add any common hooks you want to share across services in here.
-//
-// Below is an example of how a hook is written and exported. Please
-// see http://docs.feathersjs.com/hooks/readme.html for more details
-// on hooks.
+// Application hooks that run for every service
+const logger = require('./logger');
 
-exports.myHook = function(/*options*/) {
-  return function(/*hook*/) {
-//    console.log('My custom global hook ran. Feathers is awesome!');
-  };
+module.exports = {
+  before: {
+    all: [],
+    find: [],
+    get: [],
+    create: [],
+    update: [],
+    patch: [],
+    remove: []
+  },
+
+  after: {
+    all: [ logger() ],
+    find: [],
+    get: [],
+    create: [],
+    update: [],
+    patch: [],
+    remove: []
+  },
+
+  error: {
+    all: [ logger() ],
+    find: [],
+    get: [],
+    create: [],
+    update: [],
+    patch: [],
+    remove: []
+  }
 };
